@@ -4,6 +4,7 @@ import requests
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 
+
 def search_movie(movie_name):
     url = "https://api.themoviedb.org/3/search/movie"
 
