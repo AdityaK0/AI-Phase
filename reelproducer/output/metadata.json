@@ -1,0 +1,57 @@
+{
+    "title": "Salman Khan's Top 5 Box Office Blockbusters!",
+    "hook": "Ready to dive into the world of 'Bhaijaan's' biggest hits? \ud83d\udd25 Let's count down Salman Khan's Top 5 Highest Grossing Movies worldwide!",
+    "script": "Salman Khan, the 'Bhaijaan' of Bollywood, has given us countless blockbusters! But which ones truly ruled the global box office? Starting our countdown at number 5, it's the opulent family drama, 'Prem Ratan Dhan Payo' from 2015, grossing over \u20b9400 crore worldwide! Next up at number 4, the recent espionage thriller 'Tiger 3' from 2023, roaring past \u20b9466 crore worldwide! At number 3, another action-packed ride, 'Tiger Zinda Hai' from 2017, which captivated audiences globally, crossing \u20b9565 crore! Our runner-up, at number 2, is the sports drama 'Sultan' from 2016! This wrestling epic earned a massive \u20b9623 crore worldwide! And finally, claiming the top spot as Salman Khan's highest-grossing movie worldwide, it's the heartwarming 'Bajrangi Bhaijaan' from 2015! With its emotional story, it truly conquered hearts and the box office, raking in an incredible \u20b9969 crore! There you have it \u2013 the undisputed kings of Salman Khan's box office reign! Which one is your favorite?",
+    "movies": [
+        {
+            "rank": 5,
+            "title": "Prem Ratan Dhan Payo",
+            "worldwide_box_office_inr_crore": 400,
+            "year": 2015
+        },
+        {
+            "rank": 4,
+            "title": "Tiger 3",
+            "worldwide_box_office_inr_crore": 466,
+            "year": 2023
+        },
+        {
+            "rank": 3,
+            "title": "Tiger Zinda Hai",
+            "worldwide_box_office_inr_crore": 565,
+            "year": 2017
+        },
+        {
+            "rank": 2,
+            "title": "Sultan",
+            "worldwide_box_office_inr_crore": 623,
+            "year": 2016
+        },
+        {
+            "rank": 1,
+            "title": "Bajrangi Bhaijaan",
+            "worldwide_box_office_inr_crore": 969,
+            "year": 2015
+        }
+    ],
+    "hashtags": [
+        "#SalmanKhan",
+        "#Bollywood",
+        "#HighestGrossingMovies",
+        "#BoxOfficeKing",
+        "#Bhaijaan",
+        "#IndianCinema",
+        "#Top5",
+        "#Movies",
+        "#Blockbuster",
+        "#BajrangiBhaijaan",
+        "#Sultan",
+        "#TigerZindaHai",
+        "#Tiger3",
+        "#PremRatanDhanPayo"
+    ],
+    "captions": [
+        "From emotional dramas to action-packed thrillers, Salman Khan has dominated the box office! \ud83c\udfac Which of these blockbusters is your all-time favorite? Let us know in the comments! \ud83d\udc47",
+        "Relive the magic of Salman Khan's biggest worldwide hits! \ud83c\udf1f These 5 films aren't just movies, they're cinematic events! #SalmanKhanMovies #BollywoodHits"
+    ]
+}
