@@ -13,5 +13,6 @@ result = client.models.embed_content(
 
 
 vector = result.embeddings[0].values
+print(f"Vector length: {vector}")
 print(f"Dimensions: {len(vector)}")
 print(f"First 5 values: {vector[:5]}")

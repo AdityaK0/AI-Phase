@@ -1,0 +1,14 @@
+# steps 
+tokenization  -> vector embedding -> postional encoding(endcoding in the same way as input given)
+-> 
+
+
+
+
+
+
+vector matrix + encode on vector matrix = produced postional encoded matrix
+
+
+vocablury = used to map the character or word to tokenize the text/prompt 
+its pre-built map every AI models have diff-diff vocablury size
