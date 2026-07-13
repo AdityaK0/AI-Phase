@@ -1,0 +1,17 @@
+[database]
+host = "localhost"
+port = 5432
+name = "fastapi_db"
+user = "postgres"
+password = "password"
+
+
+[ai]
+model = "gpt-4"
+temperature = 0.7
+max_tokens = 1000
+
+
+[app]
+debug = true
+environment = "development"
