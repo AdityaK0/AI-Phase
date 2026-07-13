@@ -1,6 +1,6 @@
 from utils.models import BaseModel
 from sqlalchemy.orm import mapped_column,Mapped,relationship
-from sqlalchemy import String, Integer,ForeignKey,DateTime,Boolean
+from sqlalchemy import String, Integer,ForeignKey,DateTime
 from datetime import datetime
 
 class User(BaseModel):
@@ -14,6 +14,11 @@ class User(BaseModel):
     username: Mapped[str] = mapped_column(
         String(50),
         unique=True,
+        nullable=False
+    )
+    
+    fullname: Mapped[str] = mapped_column(
+        String(200),
         nullable=False
     )
 
@@ -32,6 +37,11 @@ class User(BaseModel):
         String(15),
         unique=True,
         nullable=True
+    )
+    
+    sessions: Mapped[list["Session"]] = relationship(
+        back_populates="user",
+        cascade="all, delete"
     )
 
 
@@ -71,4 +81,8 @@ class Session(BaseModel):
     last_used_at: Mapped[datetime] = mapped_column(
         DateTime,
         default=datetime.utcnow
+    )
+    
+    user: Mapped["User"] = relationship(
+        back_populates="sessions"
     )
